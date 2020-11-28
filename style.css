@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bg1.png);
+    background-repeat: repeat;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    margin: 2.5% auto;
+    color: #a7a7a4;
+    -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.52);
+    box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.52);
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.bg-top {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 10%;
+    left: 7.5%;
+}
+
+header ul {
+    list-style: none;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    text-align: right;
+}
+
+header ul li {
+    margin-bottom: 0.5rem;
+}
+
+header ul li img {
+    vertical-align: bottom;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding-right: 1rem;
+    font-size: 1rem;
+    color: #6e6e6c;
+}
+
+/*Main content bellow*/
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    width: 55.5%;
+    border-bottom: 0.4rem solid #29abe2;
+    font-weight: 100;
+}
+
+.main h2 span {
+    color: #29abe2;
+}
+
+.main p {
+    font-size: 1rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.upmost-text {
+    width: 50%;
+}
+
+.border-bottom {
+    border-bottom: 0.4rem solid #29abe2;
+    width: 55.5%;
+}
+
+.bottom-text {
+    margin-bottom: 0;
+}
+
+/*bottom part of the document bellow*/
+footer {
+    position: relative;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer h4 {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-size: 3.5rem;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+    color: #909090;
+}
